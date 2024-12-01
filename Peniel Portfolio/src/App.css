@@ -1,5 +1,37 @@
+@media (width >= 800px) {
+  #root {
+    gap: 100px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 60px;
+  }
+
+  @media (width >= 1400px) {
+    #root {
+      gap: 200px;
+    }
+    h1 {
+      font-size: 48px;
+    }
+
+    .sectionTitle {
+      margin-bottom: 75px;
+    }
+  }
+}
 :root {
-  --background-color: #fff;
+  --background-color: #8CC84B;
   --btn-color: #0987f2;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
@@ -9,7 +41,7 @@
 }
 
 [data-theme='dark'] {
-  --background-color: #222;
+  --background-color: #084312;
   --btn-color: #fff;
   --btn-text-color: #222;
   --project-card-bg: #fff;
@@ -74,35 +106,4 @@ p {
   cursor: pointer;
 }
 
-@media (width >= 800px) {
-  #root {
-    gap: 100px;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  h2,
-  h3 {
-    font-size: 24px;
-  }
-  p {
-    font-size: 20px;
-  }
 
-  .sectionTitle {
-    margin-bottom: 60px;
-  }
-
-  @media (width >= 1400px) {
-    #root {
-      gap: 200px;
-    }
-    h1 {
-      font-size: 48px;
-    }
-
-    .sectionTitle {
-      margin-bottom: 75px;
-    }
-  }
-}
