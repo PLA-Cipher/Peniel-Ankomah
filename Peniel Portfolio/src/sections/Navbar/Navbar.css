@@ -15,6 +15,7 @@
   .navbar a {
     color: #fff;
     text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
     font-weight: bold;
   }
   
@@ -31,7 +32,7 @@
   }
   
   .navbar-links li a:hover {
-    color: #f39c12;
+    color: greenyellow;
   }
   
   /* Mobile Menu Toggle Button */
@@ -40,6 +41,7 @@
     font-size: 1.5rem;
     background: none;
     border: none;
+    font-family: 'Roboto Mono', monospace;
     color: #fff;
     cursor: pointer;
   }
